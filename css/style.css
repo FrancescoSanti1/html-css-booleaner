@@ -1,3 +1,5 @@
+/* CSS relavito all'header */
+
 header {
     height: 150px;
     background-color: lightskyblue;
@@ -8,6 +10,29 @@ header img {
     height: 40%;
     margin: 80px 20px 20px;
 }
+
+/* CSS relativo al main */
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(28, 128, 221);
+    color: white;
+}
+
+.riga-sfondo-blu {
+    background-color: rgb(126, 219, 231);
+}
+
+.cella-larghezza-fissa {
+    width: 25%;
+}
+
+/* CSS relativo al footer */
 
 footer div {
     width: 150px;
