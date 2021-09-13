@@ -13,8 +13,35 @@ header img {
 
 /* CSS relativo al main */
 
+h1 {
+    margin-bottom: 0;
+}
+
+#autore {
+    margin: 0;
+    color: grey;
+}
+
+#data {
+    margin-top: 0;
+    color: grey;
+    font-size: 0.7em;
+}
+
+#autore span {
+    color: rgb(28, 128, 221);
+}
+
+#didascalia {
+    margin-top: 0;
+    font-size: 0.7em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
 table {
-    width: 100%;
     text-align: left;
     border-collapse: collapse;
 }
@@ -41,20 +68,20 @@ footer div {
 }
 
 footer h6 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: grey;
 }
 
 footer div p {
     color: white;
     font-weight: bold;
-    margin: 10px 5px;
+    padding: 5px;
 }
 
-#immagine1 {
+footer #immagine1 {
     background-image: url("../img/monitor.jpg");
 }
 
-#immagine2 {
+footer #immagine2 {
     background-image: url("../img/graph.jpg");
 }
