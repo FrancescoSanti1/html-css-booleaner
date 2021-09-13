@@ -1,0 +1,96 @@
+.contenitore {
+    width: 1200px;
+    margin: auto;
+}
+
+/* CSS relavito all'header */
+
+header {
+    height: 150px;
+    background-color: lightskyblue;
+    background-image: url("../img/pattern.png");
+}
+
+header .contenitore {
+    height: 100%;
+}
+
+header img {
+    height: 40%;
+    margin: 80px 0 20px;
+}
+
+/* CSS relativo al main */
+
+h1 {
+    margin-bottom: 0;
+}
+
+#autore {
+    margin: 0;
+    color: grey;
+}
+
+#data {
+    margin-top: 0;
+    color: grey;
+    font-size: 0.7em;
+}
+
+#autore span {
+    color: rgb(28, 128, 221);
+}
+
+#didascalia {
+    margin-top: 0;
+    font-size: 0.7em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(28, 128, 221);
+    color: white;
+}
+
+.riga-sfondo-blu {
+    background-color: rgb(126, 219, 231);
+}
+
+.cella-larghezza-fissa {
+    width: 25%;
+}
+
+/* CSS relativo al footer */
+
+footer div {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+footer h6 {
+    margin-bottom: 5px;
+    color: grey;
+}
+
+footer div p {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+footer #immagine1 {
+    background-image: url("../img/monitor.jpg");
+}
+
+footer #immagine2 {
+    background-image: url("../img/graph.jpg");
+}
